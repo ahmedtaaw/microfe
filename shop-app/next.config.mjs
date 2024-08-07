@@ -9,7 +9,7 @@ const nextConfig = {
         remotes: {},
         filename: 'static/chunks/remoteEntry.js',
         exposes: {
-          './Products': './components/Products.js',
+          './Products': './src/components/Products.js',
         },
         extraOptions: {
           debug: false,
