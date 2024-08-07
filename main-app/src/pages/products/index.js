@@ -5,6 +5,7 @@ import Footer from '@/components/Footer';
 
 const ProductsList = dynamic(() => import('shop_app/Products'), {
   loading: () => <p>Loading...</p>,
+  ssr: false,
 });
 
 export default function index() {
